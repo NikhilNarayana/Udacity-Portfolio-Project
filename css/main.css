@@ -1,18 +1,48 @@
-.display-img {
-	height: 200px;
-	width: 200px;
-}
+.logo-img {
+		height: auto;
+		width: 22.225%;
+		margin-top: 100px;
+		margin-left: 10%;
+	}
 .name {
-	font-size: 48px;
+	margin-top: 70px;
 	margin-bottom: 0px;
+	margin-right: 10%;
 }
 .tag-line {
-	font-size: 24px;
 	margin-top: 5px;
+	margin-right: 10%;
 }
 hr {
 	color: #7d97ad;
 	background-color: #7d97ad;
 	width: 90%;
 	height: 5px;
+}
+.randimg {
+   display:block;
+   margin:auto;
+   width: 90%;
+}
+@media screen and (max-width: 2160px) {
+	h1 {
+		font-size: 48px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	h1 {
+		font-size: 36px;
+	}
+	h3 {
+		font-size: 12px
+	}
+}
+@media screen and (max-width: 650px) {
+	h1 {
+		font-size: 24px;
+	}
 }
