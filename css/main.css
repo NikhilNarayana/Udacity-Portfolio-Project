@@ -1,0 +1,18 @@
+.display-img {
+	height: 200px;
+	width: 200px;
+}
+.name {
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+.tag-line {
+	font-size: 24px;
+	margin-top: 5px;
+}
+hr {
+	color: #7d97ad;
+	background-color: #7d97ad;
+	width: 90%;
+	height: 5px;
+}
