@@ -1,11 +1,11 @@
 .logo-img {
-		height: auto;
-		width: 22.225%;
-		margin-top: 100px;
-		margin-left: 10%;
-	}
+	height: 100px;
+	width: 100px;
+	margin-top: 100px;
+	margin-left: 15%;
+}
 .name {
-	margin-top: 70px;
+	margin-top: 120px;
 	margin-bottom: 0px;
 	margin-right: 10%;
 }
@@ -24,25 +24,36 @@ hr {
    margin:auto;
    width: 90%;
 }
-@media screen and (max-width: 2160px) {
-	h1 {
-		font-size: 48px;
-	}
-	h3 {
-		font-size: 24px;
-	}
+.latest-projects {
+	margin-left: 10%;
+	font-style: bold;
 }
-
+@media screen and (max-width: 2160px) {
+}
 @media screen and (max-width: 950px) {
 	h1 {
-		font-size: 36px;
-	}
-	h3 {
-		font-size: 12px
+		margin-top: 120px;
 	}
 }
-@media screen and (max-width: 650px) {
-	h1 {
+@media screen and (max-width: 766px) {
+	.logo-img {
+		display: none !important;
+	}
+	.tag-line {
+		margin-right: 6.8%;
+		font-size: 20px;
+	}
+	.name {
+		margin-right: 6.8%;
+		margin-top: 50px;
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 275px) {
+	.name {
 		font-size: 24px;
+	}
+	.tag-line {
+		font-size: 12px;
 	}
 }
