@@ -1,11 +1,11 @@
 .logo-img {
 	height: 100px;
 	width: 100px;
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-left: 15%;
 }
 .name {
-	margin-top: 120px;
+	margin-top: 50px;
 	margin-bottom: 0px;
 	margin-right: 10%;
 }
@@ -14,46 +14,42 @@
 	margin-right: 10%;
 }
 hr {
+	display: block;
 	color: #7d97ad;
 	background-color: #7d97ad;
 	width: 90%;
+	max-width: 1000px;
 	height: 5px;
 }
-.randimg {
-   display:block;
-   margin:auto;
+.code-img {
+   display: block;
+   margin: auto;
+   max-width: 1000px;
    width: 90%;
 }
 .latest-projects {
 	margin-left: 10%;
-	font-style: bold;
+	font-weight: bold;
+	text-align: left;
 }
-@media screen and (max-width: 2160px) {
-}
-@media screen and (max-width: 950px) {
-	h1 {
-		margin-top: 120px;
+@media screen and (max-width: 1564px) {
+	hr {
+		width: 90%;
 	}
 }
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
 	.logo-img {
 		display: none !important;
-	}
-	.tag-line {
-		margin-right: 6.8%;
-		font-size: 20px;
 	}
 	.name {
 		margin-right: 6.8%;
 		margin-top: 50px;
-		font-size: 30px;
-	}
-}
-@media screen and (max-width: 275px) {
-	.name {
-		font-size: 24px;
 	}
 	.tag-line {
-		font-size: 12px;
+		margin-right: 6.8%;
+	}
+	.latest-projects {
+		margin-left: 0px;
+		text-align: center;
 	}
 }
