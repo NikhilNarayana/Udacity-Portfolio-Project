@@ -40,17 +40,19 @@ hr {
 	text-align: left;
 }
 .project {
+	margin-bottom: 30px;
 	margin-left: 3%;
 }
 .project-title {
 	font-size: 24px;
 }
-@media screen and (max-width: 1564px) {
-	hr {
-		width: 90%;
-	}
+.project-img {
+	margin-bottom: 30px;
 }
 @media screen and (max-width: 767px) {
+	.project {
+		margin-left: 0%;
+	}
 	.logo-img {
 		display: none !important;
 	}
