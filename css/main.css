@@ -6,42 +6,36 @@
 .logo-img {
 	height: 100px;
 	width: 100px;
-	margin-top: 30px;
-	margin-left: 15%;
+	margin: 30px 0px 0px 15%;
 }
 .name {
-	margin-top: 50px;
-	margin-bottom: 0px;
-	margin-right: 10%;
+	margin: 50px 10% 0px 0px;
 }
 .tag-line {
-	margin-top: 5px;
-	margin-right: 10%;
+	margin: 5px 10% 0px 0px;
 }
 hr {
 	display: block;
 	color: #7d97ad;
 	background-color: #7d97ad;
+	height: 5px;
 	width: 90%;
 	max-width: 1000px;
-	height: 5px;
 }
 .code-img {
    display: block;
    margin: auto;
-   max-width: 1000px;
    width: 90%;
+   max-width: 1000px;
 }
 .latest-projects {
 	font-size: 24px;
-	margin-left: 4%;
-	margin-bottom: 10px;
+	margin: 0px 0px 10px 4%;
 	font-weight: bold;
 	text-align: left;
 }
 .project {
-	margin-bottom: 30px;
-	margin-left: 3%;
+	margin: 0px 0px 30px 3%;
 }
 .project-title {
 	font-size: 24px;
@@ -57,8 +51,7 @@ hr {
 		display: none !important;
 	}
 	.name {
-		margin-right: 6.8%;
-		margin-top: 50px;
+		margin: 50px 6.8% 0px 0px;
 	}
 	.tag-line {
 		margin-right: 6.8%;
