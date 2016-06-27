@@ -3,17 +3,21 @@
 	display: block;
 	margin: auto;
 }
+
 .logo-img {
 	height: 100px;
 	width: 100px;
-	margin: 30px 0px 0px 15%;
+	margin: 30px 0 0 15%;
 }
+
 .name {
-	margin: 50px 10% 0px 0px;
+	margin: 50px 10% 0 0;
 }
+
 .tag-line {
-	margin: 5px 10% 0px 0px;
+	margin: 5px 10% 0 0;
 }
+
 hr {
 	display: block;
 	color: #7d97ad;
@@ -22,42 +26,83 @@ hr {
 	width: 90%;
 	max-width: 1000px;
 }
+
 .code-img {
    display: block;
    margin: auto;
    width: 90%;
    max-width: 1000px;
 }
+
 .latest-projects {
 	font-size: 24px;
-	margin: 0px 0px 10px 4%;
+	margin: 0 0 10px 4%;
 	font-weight: bold;
 	text-align: left;
 }
+
 .project {
-	margin: 0px 0px 30px 0px;
+	margin: 0 0 30px 0;
 }
+
 .project-title {
 	font-size: 24px;
 }
+
 .project-img {
 	margin-bottom: 30px;
 }
+
 @media screen and (max-width: 767px) {
 	.project {
-		margin-left: 0%;
+		margin-left: 0;
 	}
+
 	.logo-img {
-		display: none !important;
+
 	}
+
 	.name {
-		margin: 50px 6.8% 0px 0px;
+		margin: 50px 6.8% 0 0;
 	}
+
 	.tag-line {
 		margin-right: 6.8%;
 	}
+
 	.latest-projects {
-		margin-left: 0px;
+		margin-left: 0;
 		text-align: center;
+	}
+}
+
+@media screen and (max-width: 587px) {
+	.name {
+		font-size: 30px
+	}
+
+	.tag-line {
+		font-size: 20px
+	}
+}
+
+@media screen and (max-width: 502px) {
+	.name {
+		font-size: 26px
+	}
+
+	.tag-line {
+		font-size: 18px
+	}
+
+	.logo-img {
+		height: 75px;
+		width: 75px;
+	}
+}
+
+@media screen and (max-width: 445px) {
+	.logo-img {
+		margin-top: 50px;
 	}
 }
